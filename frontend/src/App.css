@@ -1,0 +1,336 @@
+/* General App Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navigation Bar Styling */
+nav {
+  background-color: rgb(5, 26, 90);
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #0056b3;
+  outline: none;
+}
+
+
+/* Feedback Form Styling */
+.feedback-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.feedback-container p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.feedback-form .submit-button {
+  padding: 10px 20px;
+  background-color: #000407;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.feedback-form .submit-button:hover {
+  background-color: #0056b3;
+}
+
+.feedback-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.feedback-item {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+/* Chat Component Styling */
+.chat-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.chat-container h2 {
+  margin-top: 0;
+  color: #1063bc;  
+  font-size: 24px;  
+  font-weight: bold;  
+  text-align: center; 
+}
+
+.chat-box h3 {
+  color: rgb(254, 254, 254); 
+  font-size: 30px;  
+  font-weight: bold;  
+  text-align: left;  
+}
+
+.username-input,
+.message-input {
+  width: calc(100% - 22px);  
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.submit-button,
+.send-button {
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.submit-button:hover,
+.send-button:hover {
+  background-color: #003f8a;
+}
+
+.active-users {
+  margin-bottom: 20px;
+}
+
+.active-users h3{
+  color: rgb(4, 4, 112); 
+}
+
+.active-users-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.active-user {
+  background: #f0f0f0;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.active-user:hover {
+  background: #ddd;
+}
+
+.chat-box {
+  background: rgb(37, 37, 36);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.messages ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.message {
+  background: #eee;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+
+
+
+/* Home Styling */
+
+.home-container {
+  font-family: 'Arial', sans-serif;
+}
+
+.hero {
+  background-color: #00060c;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #003f8a;
+}
+
+.testimonials {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.features {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+
+/* Footer Styling */
+.footer {
+  background-color: rgb(5, 26, 90);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #0056b3;
+}
